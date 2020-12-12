@@ -1,0 +1,26 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.navbar{
+    font-weight: 700;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(72 41 46);
+}
+.bg-artvibe{
+    background-color: rgb(181 128 136);
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+}

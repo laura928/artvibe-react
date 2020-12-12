@@ -1,8 +1,16 @@
+import Menu from"./components/Menu";
+import Fondo from "./components/Fondo";
+import Home from "./components/Home";
+import Parallax from "./components/Parallax";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Mi proyecto Multimedia 2020</h1>
-    </div>
+    <>
+    <Menu />
+    <Fondo />
+    <Home />
+    <Parallax />
+    </>
   );
 }
 

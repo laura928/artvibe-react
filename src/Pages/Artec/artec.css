@@ -1,0 +1,45 @@
+.Body
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.Subtitulo
+{
+    font-size: 45px;
+}
+.Sbt
+{
+    color: #E5BE01;
+    font-size: 22px;
+    font-weight: bold;
+}
+.Imagenes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Img 
+{
+    width: 32%;
+    max-width: 32%;
+    min-width: 32%;
+    height: 500px;
+}
+
+.Img img 
+{
+    width: 100%;
+}
+.ImgDefinicion
+{
+    align-self: flex-end;
+}
+
+.ImgDescripcion
+{
+    align-self: center;
+}
+

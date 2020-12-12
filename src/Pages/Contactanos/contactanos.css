@@ -1,0 +1,11 @@
+.Mapa
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mapa img
+{
+    width: 85%;
+}
