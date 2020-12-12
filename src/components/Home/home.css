@@ -55,7 +55,6 @@
 
 .Dato
 {
-    margin-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -93,4 +92,37 @@
     margin-top: 80px;
     width: 95%;
 }
+@media (max-width: 950px){
+.Dato {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Dato
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Img
+    {
+        width: 80%;
+        max-width: 80%;
+        min-width: 80%;
+    }
+
+    .Imagen img 
+    {
+        width: 100%;
+        margin-top: 4%;
+    }
+
+    .Texto
+    {
+        width: 95%;
+    }
+}
+
+
 

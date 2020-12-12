@@ -40,10 +40,7 @@
 
 .Img 
 {
-    width: 32%;
-    max-width: 32%;
-    min-width: 32%;
-    height: 500px;
+    width: 100%;
 }
 
 .Img img 
@@ -93,8 +90,9 @@ h2 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.Subtitulo{
+.subtitulo{
     margin-top: 8rem !important;
+    font-size: 45px;
 }
 .InRedes
 {

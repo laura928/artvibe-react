@@ -12,7 +12,7 @@ function Nosotros() {
             <section className="Body">
                 <div className="Centrado row">
                     <div className="Descripcion col-md-13 justify-content-center">
-                        <h2 className="mt-5 Subtitulo text-center">¿Quienes somos?</h2>
+                        <h2 className="mt-5 subtitulo text-center">¿Quienes somos?</h2>
                         <p className="mt-5 Parrafo">Ofrecemos cursos virtuales de arte gráfica, incluímos la tipografía, el graffiti, el surrealismo, dibujo a lápiz con sombras y uso de color, nuestro enfoque es brindar herramientas que le permitan a los usuarios mejorar tanto profesional como en sus creaciones artísticas. <br /><br />Actualmente, Contamos con los cursos ya mencionados, en los que podrás adquirir las habilidades que se mencionan, y crecer no sólo de forma artística si no también profesionalmente en tu campo elegido:</p>
                     </div>
 
@@ -47,7 +47,7 @@ function Nosotros() {
                         </div>
                         <div className="ContenidoConcepto mt-5 ">
                             <div className="Titulo justify-content-center">
-                                <h2 className="Subtitulo">Valores corporativos</h2>
+                                <h2 className="Subtitulo">Valores</h2>
                             </div>
                             <div className="Definicion">
                                 <ol>

@@ -11,6 +11,11 @@ body {
     text-align: left;
     background-color: #fff;
 }
+.Parrafo
+{
+    font-size: 20px;
+    text-align: justify;
+}
 .Linea hr 
 {
     border: dimgray 1px solid;
@@ -124,3 +129,105 @@ body {
     top: 50px;
     left: 300px;
 }
+@media all and (max-width: 699px) and (min-width: 10px)
+{
+    .Menu
+    {
+        width: 100%;
+    }
+
+    .Menu nav ul
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Menu nav ul li 
+    {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .Menu nav ul li a
+    {
+        color: #FFF;
+        margin-right: 0;
+    }
+
+    .Menu nav ul li a:hover
+    {
+        color: #EC203F;
+    }
+
+    .Menu
+    {
+        height: 80%;
+        margin-bottom: 30px;
+    }
+
+    #Deploy
+    {
+        display: flex;
+    }
+
+    .FooterInicial
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .FooterLogo
+    {
+        display: none;
+    }
+
+    .FooterRedes
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .RedesText
+    {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .FooterSection
+    {
+        display: none;
+    }
+
+    .Centrado
+    {
+        width: 95%;
+    }
+}
+@media all and (max-width: 950px) 
+{
+    .Dato
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Img
+    {
+        width: 80%;
+        max-width: 80%;
+        min-width: 80%;
+    }
+
+    .Imagen img 
+    {
+        width: 100%;
+    }
+
+    .Texto
+    {
+        width: 95%;
+    }
+} 
